@@ -1,26 +1,3 @@
-@media screen and (min-width: 1400px) {
-	.center_info {
-		margin-right :100px;
-		max-width: 900px;
-
-	}
-	
-}
-
-@media screen and (max-width: 1400px) {
-	.about_start_info {
-		flex-direction: column;
-		flex-wrap: nowrap;
-
-	}
-	
-	.start_center {order:1;}
-	.about_start_info .control {
-		order:2;
-	}
-
-	
-	}
 @media screen and (max-width: 1010px){
 
 	main .main_welcome{
@@ -31,7 +8,7 @@
 	}
 	
 	.topnav a.icon{
-		float:right;
+		float:left;
 		margin-top: -17px;
 		display:block;
 		color:white;
@@ -50,7 +27,7 @@
 		
 	}
 	header .topnav.responsive{
-		height: 350px;
+		height: 250px;
 	}
 	.topnav.responsive a.icon{
 		position: absolute;
@@ -70,72 +47,6 @@
 		font-size: 30px;
 		font-weight: 500;
 	}
-	.start_center {
-		flex-direction: row;
-		
-		flex-wrap: wrap;
-	}
-	.start_left {
-		
-		order:1;
-	}
-	.start_right {
-		
-		text-align: center;
-		order:3;
-		padding:20px;
-		margin-top: 30px;
-
-	}
-
-	.center_info {
-		order:2;
-		padding-left:10px;
-		padding-right:10px;
-	}
-
-
-	.phone 
-{
-	font-size: 30px;
-}
-.lower_info  img{
-	max-width: 760px;
-}
-
 
 }
 
-@media screen and (max-width: 768px){
-
-.table_left img , .composition img , .lower_table img {
-	width: 100%;
-	}
-.about_start_info table td {
-	font-size: 24px;
-}
- #window{
- 	width:600px;
- }
- .close{
- 	margin-left: 570px;
- 	width: 40px;
- }
-
-}
-@media screen and (max-width: 430px){
-
-
-	.about-image i{
-		font-size: 35px;
-	}
-	.mix_right img{
-		margin-left: -20px;
-	}
-	.mix_left img{
-		margin-left: -10px;
-	}
-	.about_start_info table td {
-	font-size: 29px;
-}
-}
